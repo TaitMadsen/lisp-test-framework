@@ -3,7 +3,7 @@ lisp-test-framework
 
 testframework.lisp is the primary file, everything else in this directory is an example.
 
-testframework-example-test.lisp provides usage examples, testing functions defined in testframework-example-src.  The way this file is set up, it will run all tests automatically when loaded
+testframework-example-test.lisp provides usage examples, testing functions defined in testframework-example-src.lisp.  The way this file is set up, it will run all tests automatically when loaded
 
 It is of note that the test and test-options functions expect their arguments to be quoted.  This allows the framework to print out inputs before evaluating them.
 
