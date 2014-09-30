@@ -1,5 +1,5 @@
-(load "tm-testframework-example-src.lisp") ;; load your source
-(load "tm-testframework.lisp") ;; load the test framework
+(load "testframework-example-src.lisp") ;; load your source
+(load "testframework.lisp") ;; load the test framework
 
 ;; for the sake of example, I have purposely specified expected imputs that will result in failed tests
 
