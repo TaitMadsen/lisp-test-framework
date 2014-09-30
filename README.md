@@ -11,6 +11,7 @@ It is of note that the test and test-options functions expect their arguments to
 This allows the framework to print out inputs before evaluating them.
 
 A little about how it works:
+---------------------------
 the test, test-options, and test-many functions all return a tuple (a b) where a is 
 the number of tests passed, and b is the number of tests ran.  test-report takes a list of these 
 tuples, therefore it can take as arguments any combination of test, test-options, test-many, 
