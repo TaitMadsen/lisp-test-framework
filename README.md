@@ -19,40 +19,40 @@ or a function that return the outputs thereof.
 
 Example output:
 ---------------
-Evaluating (ADD 2 4), expecting 6
-Got: 6
-Passed: T
-
-Evaluating (ADD 13 12), expecting 20
-Got: 25
-Passed: NIL
-
-Evaluating (MULT 1 2), expecting 2
-Got: 2
-Passed: T
-
-Evaluating (MULT 3 4), expecting 7
-Got: 12
-Passed: NIL
-
-Evaluating (MULT 8 8), expecting 64
-Got: 64
-Passed: T
-
-Evaluating (RAND-ZERO-TO-TWO), expecting 0 or 1 or 2
-Got: 1
-Passed: T
-
-Evaluating (RETURN-SOME-FORM-OF-A), expecting A or (A)
-Got: (A)
-Passed: T
-
-Evaluating (RETURN-SOME-FORM-OF-A), expecting B
-Got: (A)
-Passed: NIL
-
-Test Report:
-============
-8 tests ran
-5 tests passed
-3 tests failed
+    Evaluating (ADD 2 4), expecting 6
+    Got: 6
+    Passed: T
+  
+    Evaluating (ADD 13 12), expecting 20
+    Got: 25
+    Passed: NIL
+  
+    Evaluating (MULT 1 2), expecting 2
+    Got: 2
+    Passed: T
+    
+    Evaluating (MULT 3 4), expecting 7
+    Got: 12
+    Passed: NIL
+    
+    Evaluating (MULT 8 8), expecting 64
+    Got: 64
+    Passed: T
+    
+    Evaluating (RAND-ZERO-TO-TWO), expecting 0 or 1 or 2
+    Got: 1
+    Passed: T
+    
+    Evaluating (RETURN-SOME-FORM-OF-A), expecting A or (A)
+    Got: (A)
+    Passed: T
+    
+    Evaluating (RETURN-SOME-FORM-OF-A), expecting B
+    Got: (A)
+    Passed: NIL
+    
+    Test Report:
+    ============
+    8 tests ran
+    5 tests passed
+    3 tests failed
